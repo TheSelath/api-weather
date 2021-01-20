@@ -8,11 +8,13 @@ import * as fromHomeSelectors from './state/home.selectors';
 @Component({
   selector: 'app-home',
   templateUrl: './home.page.html',
-  styleUrls: ['./home.page.css']
+  styleUrls: ['./home.page.scss']
 })
 export class HomePage implements OnInit {
 
   searchControl: FormControl;
+
+  text: string;
 
   constructor(private store: Store) { }
 
