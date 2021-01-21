@@ -23,13 +23,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "jv",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "jv",
       "kebab-case"
     ],
     "eofline": true,
